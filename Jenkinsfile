@@ -12,14 +12,10 @@ pipeline {
         string(name: 'bucket_name', defaultValue: '', description: 'bucket name',)
     }
     stages {
-        stage('terraform Init') {
+        stage('provision bucket') {
             steps{
                 sh 'terraform init'
-            }
-        }
-        stage('terraform plan') {
-            steps{
-                sh 'terraform plan'
+                sh 'terraform apply --auto-approve'
             }
         }
     }  
