@@ -1,0 +1,6 @@
+tenancy_ocid        = "ocid1.tenancy.oc1..aaaaaaaa5cscv45v7to5i3od7x5s3jzas7o4f3algvldczwvandw7aurhnkq"
+user_ocid           = "ocid1.user.oc1..aaaaaaaaerj4w5k2k6oshzgf23vvsgtdlthsocjzhkab5hnxkgq5fw7r5fca"
+private_key_path    = "~/.oci/carlosevega@gmail.com_2022-08-21T17_49_01.981Z.pem"
+fingerprint         = "55:3e:a7:63:43:7e:a3:14:4f:f6:0e:de:47:b8:55:c6"
+region              = "sa-saopaulo-1"
+root_compartment_id = "ocid1.tenancy.oc1..aaaaaaaa5cscv45v7to5i3od7x5s3jzas7o4f3algvldczwvandw7aurhnkq"
